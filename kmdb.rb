@@ -115,42 +115,62 @@ dark_knight = Movie.find_by({"title" => "The Dark Knight"})
 dark_knight_rises = Movie.find_by({"title" => "The Dark Knight Rises"})
 
 new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor["actor_name"] = "Christian Bale"
+new_actor.save
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor2 = Actor.new 
+new_actor2["actor_name"] = "Michael Caine"
+new_actor2.save 
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor3 = Actor.new 
+new_actor3["actor_name"] = "Liam Neeson"
+new_actor3.save
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor4 = Actor.new 
+new_actor4["actor_name"] = "Katie Holmes"
+new_actor4.save
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor5 = Actor.new 
+new_actor5["actor_name"] = "Gary Oldman"
+new_actor5.save 
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor6 = Actor.new 
+new_actor6["actor_name"] = "Heath Ledger"
+new_actor6.save
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor7 = Actor.new 
+new_actor7["actor_name"] = "Aaron Eckhart"
+new_actor7.save
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor8 = Actor.new 
+new_actor8["actor_name"] = "Maggie Gyllenhall"
+new_actor8.save
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor9 = Actor.new 
+new_actor9["actor_name"] = "Tom Hardy"
+new_actor9.save
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor10 = Actor.new 
+new_actor10["actor_name"] = "Joseph Gordon-Levitt"
+new_actor10.save 
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+new_actor11 = Actor.new 
+new_actor11["actor_name"] = "Anne Hathaway" 
+new_actor11.save 
 
-new_actor = Actor.new 
-new_actor["actor_name"] = 
+christianbale = Actor.find_by({"actor_name" => "Christian Bale"})
+michaelcaine = Actor.find_by({"actor_name" => "Michael Caine"})
+liamneeson= Actor.find_by({"actor_name" => "Liam Neeson"})
+katieholmes= Actor.find_by({"actor_name" => "Katie Holmes"})
+garyoldman= Actor.find_by({"actor_name" => "Gary Oldman"})
+heathledger= Actor.find_by({"actor_name" => "Heath Ledger"})
+aaroneckhart= Actor.find_by({"actor_name" => "Aaron Eckhart"})
+maggiegyllenhall= Actor.find_by({"actor_name" => "Maggie Gyllenhall"})
+tomhardy= Actor.find_by({"actor_name" => "Tom Hardy"})
+josephgordonlevitt= Actor.find_by({"actor_name" => "Joseph Gordon Levitt"})
+annehathaway= Actor.find_by({"actor_name" => "Anne Hathaway"})
 
-
+### enter roles data 
 
 # Prints a header for the movies output
 puts "Movies"
